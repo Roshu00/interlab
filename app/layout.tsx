@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Crimson_Text, DM_Sans } from "next/font/google";
+import { Crimson_Text, DM_Sans, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 
 const crimsonText = Crimson_Text({
@@ -10,6 +10,12 @@ const crimsonText = Crimson_Text({
 
 const dmSans = DM_Sans({
   variable: "--font-dm-sans",
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+});
+
+const robotoMono = Roboto_Mono({
+  variable: "--font-roboto-mono",
   subsets: ["latin"],
   weight: ["400", "500", "700"],
 });
@@ -27,7 +33,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${crimsonText.variable} ${dmSans.variable} h-full antialiased`}
+      className={`${crimsonText.variable} ${dmSans.variable} ${robotoMono.variable} h-full antialiased`}
     >
       <body className={`min-h-full flex flex-col`}>{children}</body>
     </html>
