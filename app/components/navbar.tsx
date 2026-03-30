@@ -5,7 +5,7 @@ export const Navbar = () => {
   return (
     <nav className="flex justify-between items-center p-4 max-w-7xl mx-auto">
       <Link href="/">
-        <Image src="/logo.svg" alt="Interlab" width={170} height={25} />
+        <Image src="logo.svg" alt="Interlab" width={170} height={25} />
       </Link>
       <ul className="flex items-center justify-center gap-6 font-dm-sans">
         <li className="font-bold ">O Nama</li>

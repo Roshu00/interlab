@@ -40,7 +40,7 @@ export const AboutUs = () => {
         ))}
       </div>
       <Image
-        src="/about-us.png"
+        src="about-us.png"
         alt="About Us"
         width={1000}
         height={1000}

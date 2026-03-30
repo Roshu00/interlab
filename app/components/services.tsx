@@ -35,7 +35,7 @@ export const Services = () => {
           </div>
         </div>
         <Image
-          src="/services.png"
+          src="services.png"
           alt="Services"
           width={1000}
           height={1000}

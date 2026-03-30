@@ -12,7 +12,7 @@ export const How = () => {
         vrednost.
       </p>
       <Image
-        src="/table.png"
+        src="table.png"
         alt="How"
         width={1000}
         height={1000}
@@ -20,7 +20,7 @@ export const How = () => {
       />
       <div className="grid grid-cols-2 gap-4 mt-16 w-full">
         <Image
-          src="/industry.png"
+          src="industry.png"
           alt="How"
           width={1000}
           height={1000}
