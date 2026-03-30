@@ -23,8 +23,8 @@ export const Footer = () => {
           Kontaktirajte nas
         </button>
       </div>
-      <p>Lokacija: Marka Lainovica 41, Zemun</p>
-      <p>
+      <p className="font-dm-sans">Lokacija: Marka Lainovica 41, Zemun</p>
+      <p className="font-dm-sans font-bold">
         <b>Kontakt telefon: +381 65 544 654</b>
       </p>
       <p className="font-roboto-mono tracking-[-1%] text-sm">
