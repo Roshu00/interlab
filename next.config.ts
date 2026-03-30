@@ -6,8 +6,6 @@ const nextConfig: NextConfig = {
   /* config options here */
   output: "export",
   images: {
-    loader: "akamai",
-    path: `/${repoName}/`,
     unoptimized: true,
   },
 };

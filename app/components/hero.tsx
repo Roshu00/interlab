@@ -12,7 +12,7 @@ export const Hero = () => {
         industriju — precizno, pouzdano i u <br /> skladu sa standardima.
       </p>
       <Image
-        src="/hero.png"
+        src="hero.png"
         alt="Hero Image"
         width={1000}
         height={1000}
