@@ -3,8 +3,8 @@ import React from "react";
 
 export const Location = () => {
   return (
-    <section className="max-w-7xl mx-auto flex flex-col mt-32">
-      <h2 className="font-crimson-text text-7xl">Lokacija</h2>
+    <section className="max-w-7xl mx-auto flex flex-col lg:mt-32 mt-16 px-4">
+      <h2 className="font-crimson-text lg:text-7xl text-3xl">Lokacija</h2>
       <Image
         src="map.png"
         alt="Location"

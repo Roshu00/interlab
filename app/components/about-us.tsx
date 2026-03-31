@@ -27,14 +27,14 @@ const items = [
 
 export const AboutUs = () => {
   return (
-    <section className="max-w-7xl mx-auto flex flex-col mt-32">
-      <h2 className="font-crimson-text text-7xl">O Nama</h2>
-      <p className="text-2xl mt-16 text-gray-text">
+    <section className="max-w-7xl mx-auto flex flex-col lg:mt-32 mt-16 px-4">
+      <h2 className="font-crimson-text lg:text-7xl text-3xl">O Nama</h2>
+      <p className="lg:text-2xl text-lg lg:mt-16 mt-8 text-gray-text">
         InterLab QCM je specijalizovan za kontrolu i ispitivanje materijala u
         građevinskoj i industrijskoj primeni. <br /> Pomažemo kompanijama da
         ispune zakonske i tehničke standarde — brzo, precizno i pouzdano.
       </p>
-      <div className="grid grid-cols-4 gap-4 my-16">
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 lg:my-16 my-8">
         {items.map((item) => (
           <Item key={item.title} {...item} />
         ))}
@@ -60,11 +60,15 @@ const Item = ({
   icon: string;
 }) => {
   return (
-    <div className="flex flex-col border-t py-10 border-border-color">
+    <div className="flex flex-col border-t lg:py-10 py-5 border-border-color">
       <Image src={icon} alt={title} width={24} height={24} />
       <div>
-        <h3 className="font-crimson-text text-xl mt-5">{title}</h3>
-        <p className="text-gray-text text-xl mt-5">{description}</p>
+        <h3 className="font-crimson-text lg:text-xl text-lg lg:mt-5 mt-2">
+          {title}
+        </h3>
+        <p className="text-gray-text lg:text-xl text-lg lg:mt-5 mt-2">
+          {description}
+        </p>
       </div>
     </div>
   );

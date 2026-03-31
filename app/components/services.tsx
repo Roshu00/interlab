@@ -23,12 +23,14 @@ const items = [
 
 export const Services = () => {
   return (
-    <section className="max-w-7xl mx-auto flex flex-col mt-32">
-      <div className="grid grid-cols-2 gap-4">
+    <section className="max-w-7xl mx-auto flex flex-col lg:mt-32 mt-16 px-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div className="flex flex-col">
-          <h2 className="font-crimson-text text-7xl">Naše usluge</h2>
+          <h2 className="font-crimson-text lg:text-7xl text-3xl">
+            Naše usluge
+          </h2>
 
-          <div className="flex flex-col mt-10">
+          <div className="flex flex-col lg:mt-10 mt-8">
             {items.map((item, index) => (
               <Item key={item.title} {...item} index={index} />
             ))}
