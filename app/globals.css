@@ -27,3 +27,7 @@ body {
 .font-roboto-mono {
   font-family: var(--font-roboto-mono);
 }
+
+a {
+  color: pointer;
+}

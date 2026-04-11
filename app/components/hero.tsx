@@ -18,13 +18,16 @@ export const Hero = () => {
         height={1000}
         className="mt-16 w-full h-auto lg:block hidden"
       />
-      <Image
-        src="mobile-hero.png"
-        alt="Hero Image"
-        width={1000}
-        height={400}
-        className="mt-8 w-full h-auto lg:hidden block"
-      />
+      <div className="px-4 relative">
+        <div className="absolute bottom-0 left-0 w-full h-2/3 bg-[#8B8B8B] rounded-2xl -z-1" />
+        <Image
+          src="mobile-hero.png"
+          alt="Hero Image"
+          width={1000}
+          height={400}
+          className="mt-8 w-full h-auto lg:hidden block z-10"
+        />
+      </div>
     </section>
   );
 };

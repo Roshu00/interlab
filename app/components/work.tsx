@@ -8,7 +8,10 @@ const items = [
 ];
 export const Work = () => {
   return (
-    <section className="max-w-7xl mx-auto flex flex-col lg:mt-32 mt-16 px-4">
+    <section
+      id="work"
+      className="max-w-7xl mx-auto flex flex-col lg:mt-32 mt-16 px-4"
+    >
       <h2 className="font-crimson-text lg:text-7xl text-3xl">Kako radimo?</h2>
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:mt-16 mt-8 w-full">
         {items.map((item, index) => (

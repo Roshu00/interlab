@@ -44,7 +44,14 @@ export const AboutUs = () => {
         alt="About Us"
         width={1000}
         height={1000}
-        className="w-full h-auto"
+        className="w-full h-auto lg:block hidden"
+      />
+      <Image
+        src="about-us-mobile.png"
+        alt="About Us"
+        width={1000}
+        height={1000}
+        className="w-full h-auto lg:hidden block"
       />
     </section>
   );
@@ -60,7 +67,10 @@ const Item = ({
   icon: string;
 }) => {
   return (
-    <div className="flex flex-col border-t lg:py-10 py-5 border-border-color">
+    <section
+      id="about-us"
+      className="flex flex-col border-t lg:py-10 py-5 border-border-color"
+    >
       <Image src={icon} alt={title} width={24} height={24} />
       <div>
         <h3 className="font-crimson-text lg:text-xl text-lg lg:mt-5 mt-2">
@@ -70,6 +80,6 @@ const Item = ({
           {description}
         </p>
       </div>
-    </div>
+    </section>
   );
 };

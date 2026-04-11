@@ -8,15 +8,24 @@ export const Navbar = () => {
         <Image src="logo.svg" alt="Interlab" width={170} height={25} />
       </Link>
       <ul className="lg:flex hidden items-center justify-center gap-6 font-dm-sans">
-        <li className="font-bold ">O Nama</li>
-        <li className="font-bold">Usluge</li>
-        <li className="font-bold">Naš Pristup</li>
-        <li className="font-bold">Sertifikati</li>
-        <li className="font-bold">Kontakt</li>
+        <a href="#about-us">
+          <li className="font-bold ">O Nama</li>
+        </a>
+        <a href="#services">
+          <li className="font-bold">Usluge</li>
+        </a>
+        <a href="#how">
+          <li className="font-bold">Naš Pristup</li>
+        </a>
+        <a href="#location">
+          <li className="font-bold">Lokacija</li>
+        </a>
       </ul>
-      <button className="lg:flex hidden rounded-full bg-black text-white px-6 h-12 font-bold font-dm-sans text-sm">
-        Kontaktirajte nas
-      </button>
+      <a href="tel:+381637130288">
+        <button className="lg:flex hidden rounded-full bg-black text-white px-6 h-12 font-bold font-dm-sans text-sm items-center justify-center">
+          Kontaktirajte nas
+        </button>
+      </a>
     </nav>
   );
 };

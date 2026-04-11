@@ -23,7 +23,10 @@ const items = [
 
 export const Services = () => {
   return (
-    <section className="max-w-7xl mx-auto flex flex-col lg:mt-32 mt-16 px-4">
+    <section
+      id="services"
+      className="max-w-7xl mx-auto flex flex-col lg:mt-32 mt-16 px-4"
+    >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div className="flex flex-col">
           <h2 className="font-crimson-text lg:text-7xl text-3xl">

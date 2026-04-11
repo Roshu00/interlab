@@ -10,9 +10,11 @@ export const ContactUs = () => {
       <p className="text-gray-text lg:text-2xl text-lg lg:mt-16 mt-8">
         Pošaljite upit i dobićete odgovor u roku od 24h.
       </p>
-      <button className="rounded-full bg-black text-white px-6 h-12 font-bold font-dm-sans text-sm lg:mt-16 mt-8">
-        Kontaktirajte nas
-      </button>
+      <a href="tel:+381637130288">
+        <button className="rounded-full bg-black text-white px-6 h-12 font-bold font-dm-sans text-sm lg:mt-16 mt-8">
+          Kontaktirajte nas
+        </button>
+      </a>
     </section>
   );
 };

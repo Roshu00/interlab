@@ -3,7 +3,10 @@ import React from "react";
 
 export const How = () => {
   return (
-    <section className="max-w-7xl mx-auto flex flex-col lg:mt-32 mt-16 px-4 items-center justify-center">
+    <section
+      id="how"
+      className="max-w-7xl mx-auto flex flex-col lg:mt-32 mt-16 px-4 items-center justify-center"
+    >
       <h2 className="font-crimson-text lg:text-7xl text-3xl text-center">
         Naš Pristup
       </h2>
