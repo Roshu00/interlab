@@ -39,12 +39,22 @@ export const Services = () => {
             ))}
           </div>
         </div>
+        <div className="rounded-3xl overflow-hidden bg-black/10 p-10 lg:block hidden">
+          <div className="rounded-3xl overflow-hidden min-h-[650px] relative w-full h-full">
+            <Image
+              src="services.jpg"
+              alt="Services"
+              fill
+              className="object-cover"
+            />
+          </div>
+        </div>
         <Image
-          src="services.png"
+          src="services.jpg"
           alt="Services"
           width={1000}
           height={1000}
-          className="w-full h-auto"
+          className="lg:hidden block object-cover rounded-3xl max-h-[450px]"
         />
       </div>
     </section>

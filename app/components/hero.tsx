@@ -11,6 +11,27 @@ export const Hero = () => {
         Ispitivanje, kontrola i sertifikacija materijala za građevinu i
         industriju — precizno, pouzdano i u <br /> skladu sa standardima.
       </p>
+      <div className="flex gap-4 mt-16 flex-col lg:flex-row">
+        <div className="p-4 font-dm-sans shadow-custom rounded-3xl flex items-center gap-4 lg:w-[400px] w-full">
+          <Image src="badge.svg" alt="badge" width={60} height={60} />
+          <div>
+            <h3 className=" font-bold lg:text-sm text-lg ">
+              Laboratorija - InterLab QCM
+            </h3>
+            <p className="text-[#151E2399]">Sertifikat o Akreditiaciji</p>
+          </div>
+        </div>
+        <div className="p-4 font-dm-sans shadow-custom rounded-3xl flex items-center gap-4 lg:w-[400px] w-full">
+          <Image src="badge.svg" alt="badge" width={60} height={60} />
+          <div>
+            <h3 className=" font-bold lg:text-sm text-lg ">
+              Sertifikaciono telo - InterLab QCM
+            </h3>
+            <p className="text-[#151E2399]">Sertifikat o Akreditiaciji</p>
+          </div>
+        </div>
+      </div>
+
       <Image
         src="hero.png"
         alt="Hero Image"

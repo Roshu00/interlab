@@ -28,7 +28,7 @@ const Item = ({ item, index }: { item: string; index: number }) => {
       <h2 className="font-crimson-text lg:text-7xl text-3xl font-dm-sans tracking-[-10%]">
         0{index + 1}
       </h2>
-      <h3 className="font-dm-sans lg:text-4xl text-lg font-bold whitespace-pre-line tracking-[-5%]">
+      <h3 className="font-dm-sans lg:text-4xl text-lg whitespace-pre-line tracking-[-5%]">
         {item}
       </h3>
     </div>

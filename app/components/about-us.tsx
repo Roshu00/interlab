@@ -40,18 +40,11 @@ export const AboutUs = () => {
         ))}
       </div>
       <Image
-        src="about-us.png"
+        src="about-us.jpg"
         alt="About Us"
         width={1000}
         height={1000}
-        className="w-full h-auto lg:block hidden"
-      />
-      <Image
-        src="about-us-mobile.png"
-        alt="About Us"
-        width={1000}
-        height={1000}
-        className="w-full h-auto lg:hidden block"
+        className="w-full max-w-[900px] mx-auto lg:block hidden h-[650px] rounded-3xl object-cover"
       />
     </section>
   );
